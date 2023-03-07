@@ -1,0 +1,39 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .slider{
+    position: relative;
+  }
+.slider img{
+  width: 100%;
+}
+  .slider-item,
+  .hidden
+  {
+  display: none;
+  }
+  
+  .active{
+    display: block;
+    animation: fadeAnimation 0.5s;
+  }
+  .slider-btns{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+  }
+  .slider-btns button{
+    font-size: 30px;
+    font-weight: 400;
+    background-color:rgba(0,0,0,0.5);
+    border:none;
+    color:white;
+    cursor: pointer;
+    
+  }
